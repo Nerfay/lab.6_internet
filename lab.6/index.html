@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonishin АТ-211</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li><span data-section="Dust_2">Dust 2</span></li>
+            <li>
+                <div class="dropdown">
+                    <div class="Mirage">Mirage</div>
+                    <div class="dropdown-content">
+                        <a href="#Mirage/Site_A">Сайт А</a>
+                        <a href="#Mirage/Respawn">Респаун CT</a>
+                        <a href="#Mirage/Centre">Центр</a>
+                </div>
+              </div>
+            </li>
+            <li><span data-section="Inferno">Inferno</span></li>
+        </ul>
+    </div>
+
+    <div class="fullpage">
+
+        <div data-index="0" data-anchor="Dust_2" class="section">
+            <div class="bg" style="background-image: url(img/dust2.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Dust 2</h2>
+                <p class="text">Dust II — карта со сценарием закладки бомбы в Counter-Strike: Global Offensive.Карта расположена в Марокко, в старой версии на Ближнем Востоке.У спецназа есть две цели: предотвратить закладку бомбы террористами или же обезвредить бомбу.</p>
+            </div>
+        </div>
+
+        <div data-index="1" class="section" data-anchor="Mirage" id="section2">
+            
+            <div class="slide" data-anchor="Site_A">
+                <div class="bg" style="background-image: url(img/mirage1.png)"></div>
+                <div class="content">
+                    <h2 class="title">Сайт А</h2>
+                    <p class="text">Сайт А,это позиция где происходит закладка бомбы террористами,а спецназ в свою очередь может ёё раздефузить</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="Respawn">
+                <div class="bg" id="bg2" style="background-image: url(img/mirage2.png)"></div>
+                <div class="content">
+                    <h2 class="title">Респаун CT</h2>
+                    <p class="text">Позиция на которой возраждаються Спецназ,простыми словами Респаун.</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="Centre">
+                <div class="bg" id="bg3"style="background-image: url(img/mirage3.jpg) "></div>
+                <div class="content">
+                    <h2 class="title">Центр</h2>
+                    <p class="text">Это место ,где обычно происходит самие жесткие перестрелки,в основном на этой позиции играют игроки с AWP</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-index="2" data-anchor="Inferno" class="section">
+            <div class="bg" style="background-image: url(img/inferno.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Inferno</h2>
+                <p class="text">Inferno — карта со сценарием закладки бомбы в Counter-Strike: Global Offensive.Террористы пытаются заложить бомбу на двух точках, где находятся ящики с оружием. Спецназ должен предотвратить подрыв этих точек.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
